@@ -243,7 +243,7 @@ async function scrapeAndGenerateCode(sender, prompt) {
         console.log('API Call:', 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent'); //Log the url
         console.log('Request Body:', newRequestBody);//Log the request body
         try {
-            const apiResponse = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=YOUR_API_KEY', {
+            const apiResponse = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDBiafvrbus-T3NFXD3daPn3O62WsAgNYA', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newRequestBody)
